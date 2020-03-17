@@ -18,6 +18,8 @@ public class Program {
 		
 		list.forEach(Product::staticPriceUpdate);
 		
+		list.forEach(Product::nonStaticPriceUpdate);
+		
 		list.forEach(System.out::println);
 	}
 
